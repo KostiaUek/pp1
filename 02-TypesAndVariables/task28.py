@@ -1,0 +1,5 @@
+h = float(input('Enter your height in cm: '))
+w = float(input('Enter your weight in kg: '))
+bmi = w / ((h / 100) ** 2)
+print(f'Your BMI index: {bmi}')
+print(f'Correct weight: {18.5 < bmi < 24.9}')
